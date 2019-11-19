@@ -1,0 +1,99 @@
+/*MISE EN PAGE*/
+body
+{
+	display: flex;
+	size: 100% 100%;
+	border-top : 3px #276319 solid;
+	border-right : 3px #276319 solid;
+	border-left : 3px #000000 solid;
+	border-bottom : 3px #000000 solid;
+	box-shadow : 2px 2px 10px #2D3C29;
+}
+nav
+{
+	background-color: #8caa84;
+	width: 10%;
+}
+#corps
+{
+	background: url("texture_fond.jpg")no-repeat, fixed;
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+section
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+article
+{
+	width: 20%;
+}
+/*POLICES ET PHOTO ID*/
+.flottant /*photo*/
+{
+	position: absolute;
+	top: 5%;
+	right: 3%;
+	border: 4px,  #8caa84;
+}
+@font-face  /*Police titre*/
+{
+	font-family : 'SheTerror';
+	src: url('SheTerror-Regular.ttf');
+}
+h1 /*Titre CV*/
+{
+	font-family : SheTerror, "Times New Roman", Arial, Verdana, "Courier New", sans-serif;
+	font-size : 8em;
+	color : darkgreen;
+	font-weight : bold;
+	text-align : center; 
+}
+.intro /*Sous-titre*/
+{
+	font-size : 3em;
+	color : green;
+	text-align : center;
+}
+h2 /*Police titre articles*/
+{
+	background-color : #8caa84;
+	font-size : 2.2em;
+	color : darkgreen;
+	font-weight : bold;
+	border-top : 3px #276319 solid;
+	border-right : 3px #276319 solid;
+	border-left : 3px #000000 solid;
+	border-bottom : 3px #000000 solid;
+	box-shadow : 2px 2px 10px #2D3C29;
+	padding-left: 5%;
+}
+p 
+{
+	font-size : 1.4em;
+	color : green;
+}
+em
+{
+	color : darkgreen;
+	font-style : italic;
+	text-decoration : underline;
+}
+strong
+{
+	color : darkgreen;
+	font-weight : bold;
+}
+li
+{
+	color : black;
+}
+* /*police par défaut*/
+{
+
+	font-family : "Times New Roman", Arial, Verdana, "Courier New", sans-serif;
+}
